@@ -1,0 +1,133 @@
+ body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+  }
+
+  h5{
+      font-weight: 700;
+  }
+
+  .card{
+      width: 280px;
+      height: 120px;
+  }
+html{
+    scroll-behavior: smooth;
+}
+  
+i{
+    size: 30px !important;
+}
+
+.heading img{
+    width: 60px;
+    height: 60px;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+}
+.heading a{
+    color: black !important;
+    text-decoration: none;
+    background-color: white;
+}
+
+.heading a:hover{
+    color: rgb(0, 82, 206) !important;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(0, 82, 206);
+}
+
+.btn i{
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+
+  }
+
+.list-group-item{
+    background-color: rgba(0,0,0,0);
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+  
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+  
+#page-content-wrapper {
+    min-width: 100vw;
+}
+  
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+  
+  /*navbar*/
+
+.dropdown-toggle{
+    font-size: 20px;
+}
+  
+/*footer*/
+footer{
+    background-color: rgb(64, 65, 66);
+    font-family: 'Josefin Slab', serif;
+}
+footer .content{
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(0, 82, 206);
+    transition: 0.3s;
+}
+
+footer h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*small phone or landscape*/
+@media (min-width: 570px){
+
+}
+
+/*tablets or medium*/
+@media (min-width: 768px) {
+
+}
+
+/*tablet or small laptop*/
+@media (min-width: 992px){
+
+}
